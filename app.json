@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WAYCON",
+    "slug": "WAYCON",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Capture.png",
+    "splash": {
+      "image": "./assets/way15.gif",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splashscreen.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/splashscreen.png"
+    }
+  }
+}
